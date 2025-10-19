@@ -12,6 +12,8 @@ In this problem set, we will construct and estimate a structural demand/supply m
 * We assume Generic -> not flavored unless otherwise stated, or colored package
 * Menthol/Flavored: Create the "possibly" for brands that have both varieties. 
 * Assume that black-packaged cigarettes are flavored, following industry convention
+*  "Implied discount": assuming each buyer takes full advantage of the offer, actual_price = (1-implied_discount)*stricker price. Applies only to CIGARETTES B3G2F,CHINA BLK WHISKEY B1, CHINA BLK FIRE B1G1.
+*  * Does NOT include explicit discounts, such as MERIT ILT $5 OFF
 
 ## How to read unique_upccig_hardcoded.csv
 
