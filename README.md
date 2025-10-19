@@ -20,6 +20,7 @@ In this problem set, we will construct and estimate a structural demand/supply m
 * Variables unique to unique_upccig_hardcoded.csv: above
 * Generic: kept both, denoted Generic_hardcoded or Generic_automated. The former means that there is no recognizable brand. The latter that there is no recognizable brand matching one of the 2 FTC reports. These are not the same things: all the non-cigarette products can be branded (so Generic_hardcoded==0) but not be present in the report (Generic_automated==1)
 * Menthol: the automatic aggregation for menthol was clearly too conservative as no product was reported having menthol, so I discarded it in favor of the hardcoded one. The "flavored" column in more relevant anyway
+* Removed CIGARETTES B2G1MUG (get 1 mug by buying 2 packs) because we don't know the market value of the cup, much less its subjective value, so we cannot compute the implied discount
 
 ## Group Members
 - Jiabing Liu
